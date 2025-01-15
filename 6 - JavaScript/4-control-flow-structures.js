@@ -2,7 +2,7 @@
 // 1. Conditional Statements
 
 //     1. Conditional: if, else if, else statement
-let temperature = 23;
+let temperature = 35;
 if (temperature < 0){
     console.log("It's freezing.")
 } else if (temperature >= 0 && temperature < 20){
@@ -10,6 +10,8 @@ if (temperature < 0){
     console.log("It's cool outside.")
 } else if (temperature >= 20 && temperature < 30){
     console.log("It's warm outside.")
+} else {
+    console.log("It's hot outside")
 }
 
 // 2. Looping Statements
@@ -31,5 +33,7 @@ for (let i = 1; i <= 3; i++){
 let count = 1;
 while (count <= 3){
     console.log("While Loop Count:", count);
-    count++
+    count++;
 }
+
+// count = 3 + 1 = 4
